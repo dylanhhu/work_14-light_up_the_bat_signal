@@ -7,7 +7,7 @@ main.o: main.c
 clean:
 	rm *.o
 	rm *.out
-	exit_file.txt
+	rm exit_file.txt
 
 run:
 	./main.out
